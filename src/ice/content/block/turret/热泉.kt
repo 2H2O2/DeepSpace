@@ -91,7 +91,7 @@ class 热泉 :SglTurret("turret_hotSprings") {
     }
 
     newAmmo(getBuller().apply {
-      damage = 140f
+      damage = 160f
       status = StatusEffects.burning
       statusDuration = 4f * 60f
       EventType.addContentInitEvent {
